@@ -1,0 +1,13 @@
+Flask
+matplotlib
+seaborn
+# Primary deep learning libraries
+tensorflow==2.11.0      # This version is compatible with Python 3.9 and includes Keras
+numpy==1.26.4           # This version is compatible with TensorFlow 2.11.0 and resolves the NumPy 2.x issue
+
+# Data handling and processing
+pandas==1.5.3           # A version compatible with the specified numpy
+scikit-learn==1.2.2     # A version compatible with the specified numpy
+opencv-python==4.9.0.80 # The package for cv2
+joblib==1.4.2  
+python-dotenv
