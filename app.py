@@ -60,7 +60,7 @@ def get_gemini_info(fracture_type):
     if not gemini_api_key:
         return "Gemini API key not found."
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={gemini_api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={gemini_api_key}"
     
     prompt = f"""
     Provide detailed medical information about {fracture_type} bone fracture in the following exact format:
